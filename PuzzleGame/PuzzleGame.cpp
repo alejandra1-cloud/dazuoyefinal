@@ -545,7 +545,7 @@ void TimerUpdate(HWND hWnd, WPARAM wParam, LPARAM lParam)
 void UpdatePlayer(HWND hWnd) {
 	if (player->health < 0) {
 		InitStage(hWnd, STAGE_STARTMENU);
-		player->health = 40;
+		player->health = 30;
 	}
 	//如果键盘按下，设置状态为WALK
 	if (keyLeftDown || keyUpDown || keyRightDown || keyDownDown) {
